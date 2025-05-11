@@ -1,14 +1,16 @@
-# ДЗ Тема: Основи технології  Docker
+Homework 2 — FastAPI та Docker та PostgreSQL
 
-Створіть віртуальне оточення то встановіть необхідні бібліотеки
+FastAPI-застосунок із базою даних PostgreSQL
+Встановлено "Dockerfile" для Python 3.10
+Налаштовано "docker-compose.yaml" з двома сервісами: "web" при використанні FastAPI та "db" за допомоги PostgreSQL
+Оновлено рядок підключення до бази данних  у `conf/db.py`
+Запуск застосунку через команду: docker-compose up --build
 
-```bash
-pip install -r requirements.txt
-```
 
-Запуск:
+Після запуску:
 
-```bash 
-python main.py
-```
+FastAPI: http://localhost:8000
 
+Swagger-документація: http://localhost:8000/docs
+
+ReDoc: http://localhost:8000/redoc
