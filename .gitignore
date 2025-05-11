@@ -1,0 +1,13 @@
+__pycache__/                                    
+*.pyc 
+*.pyo 
+*.pyd 
+.env  
+venv/  
+*.sqlite3           
+ .idea/   
+*.log 
+*.db 
+*.egg-info/ 
+.DS_Store 
+docker-compose.override.yml 
